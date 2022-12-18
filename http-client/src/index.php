@@ -44,7 +44,7 @@
     if (strpos($response, $lolkek) !== false) {
         echo $response;
     } else {
-        echo '<img src="'.$image_path.'" width="700" height="500">';
+        echo '<a href="'.$image_path.'" download=""><img src="'.$image_path.'" width="700" height="500"></a>';
     }
  ?>
 </body>
